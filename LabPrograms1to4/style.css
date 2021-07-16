@@ -1,24 +1,42 @@
 body {
-  background-color: blueviolet;
+  background-color: rgb(192,255,0);
+}
+a {
+  font-size: large;
+}
+#heading {
+  text-decoration:underline;
+  text-decoration-style: wavy;
+  text-decoration-color: brown;
+  color: rgba(255, 0, 0);
+  font-size: large;
+  font-weight: bolder;
+}
+label {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  font-size: larger;
+  font-weight:1000;
+}
+input {
+  border-color: blue;
 }
 table{
-    border-collapse: collapse;
     width: 100%;
-    border: 2px solid black;
+    border: 2px solid blue;
     padding: 8px;
 }
-
 td, th{
-    border: 2px solid black;
-    padding: 8px;
+    border: 4px solid blue;
+    padding: 2px;
     text-align: center;
 }
 mark{
     background-color: white;
 }
 
-mark:hover{
-    background-color: yellow;
+a:hover{
+    background-color: orange;
 }
 
 .clr{
